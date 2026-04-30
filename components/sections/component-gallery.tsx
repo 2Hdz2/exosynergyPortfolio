@@ -24,7 +24,7 @@ const images: ImageType[] = [
     color: "cyan"
   },
   {
-    src: "/images/diagrams/stellar-analysis.gif",
+    src: "/images/diagrams/Kaveesha's-Component-diagram.png",
     alt: "Stellar Classification",
     icon: Sparkles,
     color: "purple"
