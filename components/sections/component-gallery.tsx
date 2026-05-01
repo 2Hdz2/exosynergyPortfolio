@@ -18,7 +18,7 @@ interface ImageType {
 
 const images: ImageType[] = [
   {
-    src: "/images/diagrams/exoplanet-detection.gif",
+    src: "/images/diagrams/Heidi-SysDiagram.png",
     alt: "Hybrid Exoplanet Detection",
     icon: Telescope,
     color: "cyan"
