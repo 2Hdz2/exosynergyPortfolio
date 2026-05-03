@@ -44,7 +44,7 @@ const members = [
   {
     id: "member-3",
     name: "Chamudi",
-    role: "Lead Developer",
+    role: "Researcher",
     avatar: "/images/members/chamudhi.png",
     icon: Code2,
     color: "from-orange-500 to-red-500",
@@ -53,7 +53,7 @@ const members = [
   {
     id: "member-4",
     name: "Akila",
-    role: "Data Scientist",
+    role: "Researcher",
     avatar: "/images/members/himaja.png",
     icon: BarChart3,
     color: "from-rose-500 to-pink-500",
