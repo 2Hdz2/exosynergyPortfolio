@@ -157,7 +157,7 @@ const Header = () => {
                   })
                 )}
                 href="#components"
-                onClick={(e) => scrollToSection(e, "scope")}
+                onClick={(e) => scrollToSection(e, "components")}
               >
                 Components
               </Link>
