@@ -169,8 +169,8 @@ const Header = () => {
                     variant: "ghost",
                   })
                 )}
-                href="#milestones"
-                onClick={(e) => scrollToSection(e, "milestones")}
+                href="#scope"
+                onClick={(e) => scrollToSection(e, "scope")}
               >
                 Research
               </Link>
