@@ -193,8 +193,8 @@ const Header = () => {
                     variant: "ghost",
                   })
                 )}
-                href="#presentations"
-                onClick={(e) => scrollToSection(e, "presentations")}
+                href="#achievements"
+                onClick={(e) => scrollToSection(e, "achievements")}
               >
                 Results
               </Link>
