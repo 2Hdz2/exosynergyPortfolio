@@ -30,13 +30,13 @@ const images: ImageType[] = [
     color: "purple"
   },
   {
-    src: "/images/diagrams/atmospheric-spectrum.gif",
+    src: "/images/diagrams/himajasys.png",
     alt: "Atmospheric Analysis",
     icon: Wind,
     color: "green"
   },
   {
-    src: "/images/diagrams/mineral-mapping.png",
+    src: "/images/diagrams/chamudisys.png",
     alt: "Mineral Identification",
     icon: Gem,
     color: "orange"
@@ -160,7 +160,7 @@ export default function ComponentGallery() {
               </div>
             </div>
             <h2 className="text-4xl md:text-5xl font-black text-white mb-4 bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-300 bg-clip-text text-transparent">
-              Research Visualizations
+              System Diagram
             </h2>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto font-light leading-relaxed">
               Interactive diagrams showcasing exoplanet detection and analysis methodologies
