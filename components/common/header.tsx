@@ -156,7 +156,7 @@ const Header = () => {
                     variant: "ghost",
                   })
                 )}
-                href="#scope"
+                href="#components"
                 onClick={(e) => scrollToSection(e, "scope")}
               >
                 Components
