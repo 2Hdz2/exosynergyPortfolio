@@ -29,7 +29,7 @@ const milestones = [
     icon: Orbit,
   },
   {
-    date: "Jan 05, 2026",
+    date: "Jan 03, 2026",
     title: "Progress Presentation 1",
     description: "In this stage we had to show our progress up to 50%.",
     color: "bg-blue-600",
@@ -43,26 +43,27 @@ const milestones = [
     icon: Sparkles,
   },
   {
-    date: "Mar 09 2026",
+    date: "Mar 03 2026",
     title: "Progress Presentation 2",
     description: "Demonstrated 90% progress.",
     color: "bg-green-500",
     icon: Star,
   },
-  {
-    date: "Apr 11, 2026",
-    title: "Thesis Submission",
-    description: "Thesis paper of the project.",
-    color: "bg-gray-700",
-    icon: Orbit,
-  },
-  {
+    {
     date: "May 05, 2026",
     title: "Final Presentation and viva",
     description: "Finalized and Demonstrated 100% progress.",
     color: "bg-purple-700",
     icon: Sparkles,
   },
+  {
+    date: "May 13, 2026",
+    title: "Thesis Submission",
+    description: "Thesis paper of the project.",
+    color: "bg-gray-700",
+    icon: Orbit,
+  },
+
 ];
 
 const Timeline = () => {

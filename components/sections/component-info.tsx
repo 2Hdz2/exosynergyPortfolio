@@ -19,7 +19,7 @@ const components = [
     title: "Hybrid Exoplanet Detection",
     description: "Combines transit photometry and direct imaging with CNN/RNN architectures to detect exoplanets. Fuses multi-domain signals for robust detection confidence.",
     owner: "H.A.H.E.K. Hettiarachchi",
-    github: "https://github.com/HeidiHettiarachchi/exo-hybrid-detection",
+    github: "https://exodios.onrender.com/",
     color: "from-cyan-500 to-blue-500",
     icon2: Zap,
   },
@@ -46,7 +46,7 @@ const components = [
     title: "Mineral Identification",
     description: "Uses U-Net deep learning on hyperspectral data for pixel-level mineral segmentation. Enables fast, consistent surface analysis without manual interpretation.",
     owner: "C I Abeywickrama",
-    github: "#",
+    github: "https://github.com/HeidiHettiarachchi/ExoSynergy.git",
     color: "from-emerald-500 to-teal-500",
     icon2: Orbit,
   },
@@ -152,7 +152,7 @@ const ComponentInfo = () => {
                       className="inline-flex items-center gap-2 text-sm font-semibold text-cyan-400 hover:text-cyan-300 transition-all duration-300 group/link py-2 px-3 rounded-lg hover:bg-cyan-500/10 border border-transparent hover:border-cyan-500/30"
                     >
                       <GitBranch className="w-4 h-4" />
-                      View Repository
+                      View Website
                       <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
                     </a>
                   )}

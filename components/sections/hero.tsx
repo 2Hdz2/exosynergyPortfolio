@@ -15,6 +15,7 @@ import {
   Wind,
   Eye
 } from "lucide-react";
+import ComponentInfo from "./component-info";
 
 const HeroSection = () => {
   const scrollToSection = <T extends HTMLElement>(
@@ -387,7 +388,8 @@ const HeroSection = () => {
                   aria-hidden="true"
                   strokeWidth={2.5}
                 />
-                Explore All Components
+                
+                Explore All Components 
                 <ArrowRightIcon
                   className="transition-all group-hover:translate-x-2 group-hover:opacity-100 opacity-70"
                   size={20}

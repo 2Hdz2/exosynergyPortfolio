@@ -4,13 +4,13 @@ import { AnimatedTooltip } from "../ui/animated-tooltip";
 import { Orbit, Sparkles, Rocket, Star, Lightbulb, Zap, Telescope, Radio, Users2, Code2, BarChart3, Crown } from "lucide-react";
 
 const people = [
-  { id: 1, name: "Heidi", designation: "Project Lead", image: "/images/members/Heidi.png", roleIcon: Users2, color: "indigo" },
-  { id: 2, name: "Kaveesha", designation: "Researcher", image: "/images/members/Kaveesha.png", roleIcon: Lightbulb, color: "green" },
-  { id: 3, name: "Chamudi", designation: "Lead Developer", image: "/images/members/Chamudi.png", roleIcon: Code2, color: "orange" },
-  { id: 4, name: "Akila", designation: "Data Scientist", image: "/images/members/Akila.png", roleIcon: BarChart3, color: "rose" },
+  { id: 1, name: "Heidi Hettiarachchi", designation: "IT22323248", image: "/images/members/Heidi.png", roleIcon: Users2, color: "indigo" },
+  { id: 2, name: "Fernando M.K.C", designation: "IT22346254", image: "/images/members/Kaveesha.png", roleIcon: Lightbulb, color: "green" },
+  { id: 3, name: "Abeywickrama C I", designation: "IT22343048", image: "/images/members/chamudhi.png", roleIcon: Code2, color: "orange" },
+  { id: 4, name: "Akila Himaja", designation: "IT22026866", image: "/images/members/himaja.png", roleIcon: BarChart3, color: "rose" },
 ];
 
-const ContributorPreview = () => {
+const ContributorPreview = () => { 
   return (
     <section className="relative w-full py-28 bg-gradient-to-b from-slate-950 via-purple-950/40 to-slate-950 overflow-hidden">
       <style>{`
@@ -182,7 +182,7 @@ const ContributorPreview = () => {
 
         {/* Main Title */}
         <h3 className="text-5xl md:text-6xl font-black text-white mb-8 leading-tight animate-slide-in-up delay-100">
-          Stellar Minds
+          Meet The Team
           <div className="block bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 animate-shimmer">
             Exploring Worlds
           </div>
@@ -205,14 +205,44 @@ const ContributorPreview = () => {
                   <div className="absolute inset-0 bg-cyan-500/30 rounded-full blur-md" />
                   <Telescope className="w-5 h-5 text-cyan-400 relative animate-role-icon-spin" strokeWidth={2.5} />
                 </div>
-                <span className="text-sm font-bold text-white uppercase tracking-widest">Elite Contributors</span>
+                <span className="text-sm font-bold text-white uppercase tracking-widest">Contributors</span>
                 <div className="relative">
                   <div className="absolute inset-0 bg-pink-500/30 rounded-full blur-md" />
                   <Radio className="w-5 h-5 text-pink-400 relative animate-role-icon-float" strokeWidth={2.5} />
                 </div>
               </div>
             </div>
-            <AnimatedTooltip items={people} />
+            {/* <AnimatedTooltip items={people} /> */}
+    <div className="grid grid-cols-2 gap-3 max-w-xs mx-auto">
+  {people.map((person) => {
+    const RoleIcon = person.roleIcon;
+    return (
+      <div key={person.id} className="relative group/card">
+        {/* Tooltip */}
+        <div className="absolute -top-14 left-1/2 -translate-x-1/2 z-50 opacity-0 group-hover/card:opacity-100 transition-all duration-300 translate-y-2 group-hover/card:translate-y-0 pointer-events-none">
+          <div className="bg-black/90 backdrop-blur-md border border-white/20 rounded-xl px-3 py-2 shadow-xl whitespace-nowrap">
+            <p className="text-white font-bold text-xs">{person.name}</p>
+            <p className="text-cyan-400 text-[10px]">{person.designation}</p>
+          </div>
+          {/* Arrow */}
+          <div className="w-2 h-2 bg-black/90 border-r border-b border-white/20 rotate-45 mx-auto -mt-1" />
+        </div>
+
+        <div className="relative overflow-hidden rounded-xl border border-white/20 hover:border-cyan-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20">
+          <img
+            src={person.image}
+            alt={person.name}
+            className="w-full aspect-square object-cover object-top grayscale-[20%] group-hover/card:scale-105 transition-transform duration-500"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent opacity-60 group-hover/card:opacity-80 transition-opacity duration-300" />
+          <div className="absolute top-1.5 right-1.5 w-6 h-6 rounded-md bg-black/50 border border-white/20 backdrop-blur-sm flex items-center justify-center">
+            <RoleIcon className="w-3 h-3 text-cyan-400" strokeWidth={2} />
+          </div>
+        </div>
+      </div>
+    );
+  })}
+</div>
           </div>
 
           {/* Elite Badge */}

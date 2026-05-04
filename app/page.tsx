@@ -18,17 +18,18 @@ export default function Home() {
   return (
     <div className="flex flex-col mx-5">
       <HeroSection />
-      <ContributorPreview />
       <Content />
+      <Solution />
       <ComponentInfo />
       <ComponentGallery />
-      <Solution />
+
       <TechStack />
       <Timeline />
       <Documents />
       <Banner />
-      <Presentations />
+      {/* <Presentations /> */}
       <Team />
+      <ContributorPreview />
       <Contact />
     </div>
   );
