@@ -205,8 +205,8 @@ const Header = () => {
                     variant: "ghost",
                   })
                 )}
-                href="#about"
-                onClick={(e) => scrollToSection(e, "about")}
+                href="#team"
+                onClick={(e) => scrollToSection(e, "team")}
               >
                 Team
               </Link>
