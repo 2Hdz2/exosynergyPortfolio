@@ -37,7 +37,7 @@ const components = [
     title: "Atmospheric Analysis",
     description: "Detects atmospheric gases and identifies biosignatures. Generates atmospheric profiles with confidence scores and compares with reference planets.",
     owner: "Tissera W A H",
-    github: "https://github.com/HeidiHettiarachchi/ExoSynergy.git",
+    github: "https://exosynergy-vm6u.onrender.com/atmosphere",
     color: "from-purple-500 to-pink-500",
     icon2: Radio,
   },
