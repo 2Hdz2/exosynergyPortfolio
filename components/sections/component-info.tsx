@@ -28,7 +28,7 @@ const components = [
     title: "Stellar Classification",
     description: "Predicts stellar parameters from photometric data. Evaluates star suitability for hosting exoplanets using ML models trained on SDSS survey data.",
     owner: "Fernando M.K.C",
-    github: "https://github.com/KCxRULZZ/Star-Suitability-Predictor.git",
+    github: "https://star-suitability-predictor-production-5e6f.up.railway.app/",
     color: "from-amber-500 to-orange-500",
     icon2: Sparkles,
   },
