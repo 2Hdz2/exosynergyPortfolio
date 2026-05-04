@@ -46,7 +46,7 @@ const components = [
     title: "Mineral Identification",
     description: "Uses U-Net deep learning on hyperspectral data for pixel-level mineral segmentation. Enables fast, consistent surface analysis without manual interpretation.",
     owner: "C I Abeywickrama",
-    github: "https://github.com/HeidiHettiarachchi/ExoSynergy.git",
+    github: "https://mineral-identification-frontend.onrender.com/",
     color: "from-emerald-500 to-teal-500",
     icon2: Orbit,
   },
