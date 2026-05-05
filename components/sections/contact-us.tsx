@@ -148,7 +148,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <Form {...form}>
+          {/* <Form {...form}>
             <form 
               onSubmit={form.handleSubmit(onSubmit)} 
               className="rounded-3xl bg-gradient-to-br from-slate-800/50 via-slate-900/50 to-slate-900/50 border border-cyan-500/20 p-10 shadow-2xl hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 backdrop-blur-xl animate-slide-in group"
@@ -263,7 +263,7 @@ const Contact = () => {
                 </Button>
               </div>
             </form>
-          </Form>
+          </Form> */}
         </div>
       </div>
     </section>
