@@ -129,7 +129,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-bold text-white mb-1 text-lg">Email</h3>
                   <a href="mailto:research@exoplanet.ai" className="text-cyan-400 hover:text-cyan-300 transition-colors font-light">
-                    research@exoplanet.ai
+                    it22323248@my.sliit.lk
                   </a>
                 </div>
               </div>
