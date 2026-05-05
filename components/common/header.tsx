@@ -156,8 +156,8 @@ const Header = () => {
                     variant: "ghost",
                   })
                 )}
-                href="#scope"
-                onClick={(e) => scrollToSection(e, "scope")}
+                href="#components"
+                onClick={(e) => scrollToSection(e, "components")}
               >
                 Components
               </Link>
@@ -169,8 +169,8 @@ const Header = () => {
                     variant: "ghost",
                   })
                 )}
-                href="#milestones"
-                onClick={(e) => scrollToSection(e, "milestones")}
+                href="#scope"
+                onClick={(e) => scrollToSection(e, "scope")}
               >
                 Research
               </Link>
@@ -193,8 +193,8 @@ const Header = () => {
                     variant: "ghost",
                   })
                 )}
-                href="#presentations"
-                onClick={(e) => scrollToSection(e, "presentations")}
+                href="#achievements"
+                onClick={(e) => scrollToSection(e, "achievements")}
               >
                 Results
               </Link>
@@ -205,8 +205,8 @@ const Header = () => {
                     variant: "ghost",
                   })
                 )}
-                href="#about"
-                onClick={(e) => scrollToSection(e, "about")}
+                href="#team"
+                onClick={(e) => scrollToSection(e, "team")}
               >
                 Team
               </Link>

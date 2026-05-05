@@ -121,7 +121,7 @@ const Banner = () => {
             <Sparkles className="w-14 h-14 text-amber-300 animate-float" strokeWidth={1} />
           </div>
 
-          <div className="p-10 md:p-16 relative z-10">
+          <div className="p-10 md:p-16 relative z-10" id="achievements">
             <div className="flex flex-col items-center text-center gap-8">
 
               {/* Trophy Icon */}
